@@ -25,3 +25,17 @@ class DingdianSpiderItem(scrapy.Item):
     # 文章类别
     name_id = scrapy.Field()
     # 小说编号
+
+
+class DcontentItem(scrapy.Item):
+
+    id_name = scrapy.Field()
+    #小说编号
+    chaptercontent = scrapy.Field()
+    # 章节内容
+    num = scrapy.Field()
+    # 用于绑定章节顺序
+    chapterurl = scrapy.Field()
+    # 章节地址
+    chaptername = scrapy.Field()
+    # 章节名字
