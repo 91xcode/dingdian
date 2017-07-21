@@ -1,17 +1,14 @@
 ```
- mkdir dingdian
+顶点小说抓取,数据存入数据库
 
- scrapy startproject dingdian_spider
+需要
+BeautifulSoup
+bs4
+python2.7
+scrapy
+mysqldb
 
- cd dingdian_spider
-
- scrapy genspider dingdian www.x23us.com
- 
- 
- 
- 
- 
- pip install BeautifulSoup
- 
- pip install bs4
+执行:
+cd dingdian
+python start.py
 ```
